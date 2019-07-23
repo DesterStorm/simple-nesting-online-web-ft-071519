@@ -17,11 +17,11 @@ def hopper
   programmer_hash[:grace_hopper]
 end
 
+
 hopper
 
-def alan_kay_is_known_for
-	
 
+def alan_kay_is_known_for
 	programmer_hash =
  		{
         :grace_hopper => {
@@ -40,6 +40,7 @@ def alan_kay_is_known_for
      
   programmer_hash[:alan_kay][:known_for] 
 end
+
 
 alan_kay_is_known_for
 
@@ -66,8 +67,6 @@ end
 
 
 def adding_matz
-
-
 	programmer_hash =
  		{
         :grace_hopper => {
@@ -91,12 +90,11 @@ def adding_matz
     }
     
   programmer_hash
-    
-    
-
 end
 
+
 adding_matz
+
 
 def changing_alan
 	programmer_hash =
@@ -122,7 +120,9 @@ def changing_alan
 
 end
 
+
 changing_alan
+
 
 def adding_to_dennis
 	programmer_hash =
@@ -142,7 +142,7 @@ def adding_to_dennis
      }
   programmer_hash[:dennis_ritchie][:languages] << "Assembly"
   programmer_hash
-
 end
+
 
 adding_to_dennis
